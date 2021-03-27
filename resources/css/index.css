@@ -11,6 +11,18 @@
 #links {
             height: 80px;
 }
+
+aside {
+        width: 15%;
+}
+main {
+        width: 74%;
+}
 main, aside {
-                margin-top: 80px;
+                margin-top: 80px; 
+                padding: 10px;
+}
+
+#info {
+        display: flex;
 }
