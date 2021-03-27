@@ -13,16 +13,23 @@
 }
 
 aside {
-        width: 15%;
+        width: 10%;
+}
+aside > nav {
+                height: 100%;
+                width: 10%;
 }
 main {
-        width: 74%;
+        width: 89%;
+        margin-left: 10%;
+        height: 100%;
 }
 main, aside {
                 margin-top: 80px; 
                 padding: 10px;
+                display: table-cell;
 }
 
 #info {
-        display: flex;
+        display: table;
 }
