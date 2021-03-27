@@ -18,6 +18,10 @@ aside {
 aside > nav {
                 height: 100%;
                 width: 10%;
+                align-items: flex-start;
+}
+aside > nav > ul >li > a{
+                            text-decoration: none;
 }
 main {
         width: 89%;
