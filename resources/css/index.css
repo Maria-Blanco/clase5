@@ -1,4 +1,16 @@
 #links > ul {
                 list-style: none;
                 display: inline-flex;
+                justify-content: flex-end;
+                justify-self: flex-end ;
+}
+#links > ul > li > a {
+                        margin-right: 60px;                        
+}
+
+#links {
+            height: 80px;
+}
+main, aside {
+                margin-top: 80px;
 }
