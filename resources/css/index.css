@@ -1,39 +1,20 @@
-#links > ul {
+ul {
                 list-style: none;
-                display: inline-flex;
-                justify-content: flex-end;
-                justify-self: flex-end ;
 }
-#links > ul > li > a {
-                        margin-right: 60px;                        
-}
-
 #links {
             height: 80px;
-}
-
-aside {
-        width: 10%;
 }
 aside > nav {
                 height: 100%;
                 width: 10%;
-                align-items: flex-start;
+                align-content: flex-start;
 }
 aside > nav > ul >li > a{
                             text-decoration: none;
+                            color: white;
 }
 main {
         width: 89%;
         margin-left: 10%;
         height: 100%;
-}
-main, aside {
-                margin-top: 80px; 
-                padding: 10px;
-                display: table-cell;
-}
-
-#info {
-        display: table;
 }
