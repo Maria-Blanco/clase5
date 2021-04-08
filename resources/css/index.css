@@ -28,14 +28,13 @@ main {
                 background-image: url(../imagenes/playa_coco01.jpg);
                 background-size: cover;
 }
-main > div {
+main > section > div {
                 width: 350px;
 }
 #cartas {
         width: 100%;
 }
 #tabla{
-                width: 500px;
                 margin-left: 40px;
 }
 #tablas {
