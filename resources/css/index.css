@@ -13,8 +13,28 @@ aside > nav > ul >li > a{
                             text-decoration: none;
                             color: white;
 }
-main {
+#principal {
         width: 89%;
         margin-left: 10%;
         height: 100%;
+}
+h2{
+        text-align: center;
+}
+header > h2 {
+                text-shadow: 2px 1px 7px rgb(0, 0, 0);
+}
+main {
+                background-image: url(../imagenes/playa_coco01.jpg);
+                background-size: cover;
+}
+main > div {
+                width: 350px;
+}
+#cartas {
+        margin-left: 7%;
+}
+#tabla{
+                width: 500px;
+                margin-left: 40px;
 }
