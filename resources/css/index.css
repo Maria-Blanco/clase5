@@ -32,9 +32,15 @@ main > div {
                 width: 350px;
 }
 #cartas {
-        margin-left: 7%;
+        width: 100%;
 }
 #tabla{
                 width: 500px;
                 margin-left: 40px;
+}
+#tablas {
+                width: 100%;
+}
+tfoot > tr > td {
+                        font-weight: bold;
 }
